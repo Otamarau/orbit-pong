@@ -30,6 +30,10 @@ public class MovableRectangle {
         y += moveAmount;
     }
 
+    public Rectangle getBounds() {
+        return new Rectangle(x, y, width, height);
+    }
+
     public void setPosition(int x, int y) {
         this.x = x;
         this.y = y;
