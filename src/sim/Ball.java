@@ -19,6 +19,8 @@ public class Ball {
         this.color = color;
     }
 
+    
+
     public void move(Rectangle panelBounds, List<MovableRectangle> rectangles, FixedPlanet planet) {
         // Gravity effect from the planet
         double dx = planet.getX() - x;
